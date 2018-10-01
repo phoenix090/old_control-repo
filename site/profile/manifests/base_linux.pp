@@ -4,9 +4,7 @@
 #
 # @example
 #   include profile::base_linux
-
 class profile::base_linux {
-
   $root_ssh_key = lookup('base_linux::root_ssh_key')
   $linux_sw_pkg = lookup('base_linux::linux_sw_pkg')
 
