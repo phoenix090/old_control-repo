@@ -1,2 +1,10 @@
 ---
+base_windows::win_sw_pkg:
+  - 'notepadplusplus'
+  - 'git'
+base_linux::linux_sw_pkg:
+  - 'htop'
+  - 'sysstat'
+  - 'vim'
+base_linux::root_ssh_key: 'AAAAB3NzaC1yc2EAAAADAQABAAABAQDPvtEMfTXLEDQg2aEHTPN/fAsUhtnQ9QlIslCzAFGclPVCNnoIiHjniDm089YChRkxeWamZ/Tbgjsmo/wp0CbsisnSr7GNByDdyWhghveZaTfrQVtGVHH6soHP4WhWHOj3KehhV2kq4N3O60n5eM9CEHxWt9Glf4KuSYoQR+NaY3UjENpzWdqMmVh/FFwAWqf6WGw0nHXwGLsyWJBPpzDEVeeZ+qql0ppUmDqO4I00KTsiTVzKFy0iyeF+mL23+A7clfjz/SSfj0NtgUlH3WeR/7FcVbtjB/bAppkfoGqKoc6grAlzuuMrOkBcRNmyzT7JNipc2+Lwuz00dhjEIkgL'
 message: "This node is using common data"
