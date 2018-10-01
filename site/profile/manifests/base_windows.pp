@@ -5,7 +5,6 @@
 # @example
 #   include profile::base_windows
 class profile::base_windows {
-
   $win_sw_pkg = lookup('base_windows::win_sw_pkg')
 
 # set default package provider on windows to chocolatey,
