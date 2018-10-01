@@ -45,4 +45,4 @@ mod 'puppet-make',               '2.1.0'
 mod 'puppetlabs-inifile',        '2.3.0'
 mod 'puppetlabs-vcsrepo',        '2.3.0'
 mod 'puppetlabs-git',            '0.5.0'
-mod 'gentoo-portage',            '2.3.0'g 
+mod 'gentoo-portage',            '2.3.0' 
