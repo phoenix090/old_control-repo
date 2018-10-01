@@ -24,7 +24,7 @@ class profile::base_linux {
     ensure => latest,
   }
 
-  package { 'binclock' :
+  package { 'binclock':
     ensure => present
   }
 
