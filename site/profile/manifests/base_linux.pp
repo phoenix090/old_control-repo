@@ -25,10 +25,6 @@ class profile::base_linux {
   }
 
   package { 'binclock':
-    ensure => absent
-  }
-  
-  package { 'cowsay': 
     ensure => present
   }
 
