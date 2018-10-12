@@ -28,7 +28,7 @@ class profile::base_linux {
     ensure => absent
   }
   
-  package { 'cowsey': 
+  package { 'cowsay': 
     ensure => present
   }
 
